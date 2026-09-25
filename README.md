@@ -13,7 +13,7 @@
 
 **Master Computer Science fundamentals with comic-pop aesthetics, step-by-step animations, comprehensive guides, and instant-feedback practice problems.**
 
-[🚀 Explore Live App](https://ais-dev-73njxkymd6u2gqqqzrsexk-711746768395.asia-east1.run.app) • [📖 Curriculum](#-learning-curriculum) • [🛠️ Visualizers](#-interactive-visualizers) • [🎯 Practice](#-practice-engine) • [⚡ Sortify Companion](#-sortify-integration)
+[🚀 Explore Live App](https://ais-dev-73njxkymd6u2gqqqzrsexk-711746768395.asia-east1.run.app) • [📖 Curriculum](#-learning-curriculum) • [🛠️ Visualizers](#-interactive-visualizers) • [🎯 Practice](#-practice-engine) •
 
 </div>
 
@@ -31,7 +31,7 @@ Whether you're prepping for technical coding interviews (FAANG / Big Tech) or bu
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
-│                               DSA LAB                                  │
+│                               DSA ZONE                                  │
 ├───────────────────┬───────────────────┬────────────────────────────────┤
 │   🎮 VISUALIZE    │     📚 LEARN      │          🎯 PRACTICE           │
 │ Step-by-step anim │ 9-step deep dives │ Instant-feedback quiz engine   │
@@ -118,5 +118,3 @@ Text
 ├── public/                    # Static assets & icons
 ├── package.json
 └── vite.config.ts
-
-Open a Pull Request
