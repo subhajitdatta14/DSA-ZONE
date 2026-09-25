@@ -12,7 +12,7 @@
 
 **Master Computer Science fundamentals with comic-pop aesthetics, step-by-step animations, comprehensive guides, and instant-feedback practice problems.**
 
-[🚀 Explore Live App](https://ais-dev-73njxkymd6u2gqqqzrsexk-711746768395.asia-east1.run.app) • [📖 Curriculum](#-learning-curriculum) • [🛠️ Visualizers](#-interactive-visualizers) • [🎯 Practice](#-practice-engine) •
+[🚀 Explore Live App](https://ais-dev-73njxkymd6u2gqqqzrsexk-711746768395.asia-east1.run.app) • [📖 Curriculum](#-learning-curriculum) • [🛠️ Visualizers](#-interactive-visualizers) • [🎯 Practice](#-practice-engine)
 
 </div>
 
