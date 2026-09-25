@@ -1,4 +1,4 @@
-# DSA LAB — Interactive Data Structures & Algorithms
+# DSA ZONE — Interactive Data Structures & Algorithms
 
 <div align="center">
 
@@ -7,7 +7,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-7.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4.3-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vite 8](https://img.shields.io/badge/Vite-8.3-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Vercel Ready](https://img.shields.io/badge/Vercel-Deployable-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
 
 <br/>
 
@@ -19,9 +19,9 @@
 
 ---
 
-## 🎨 What is DSA LAB?
+## 🎨 What is DSA ZONE?
 
-**DSA LAB** reimagines algorithmic education by trading sterile, dry diagrams for a **vibrant, neo-brutalist comic-book playground**. Every data structure comes to life with step-by-step animation controls, live code tracers, dynamic pointer highlights, and interactive problem testing.
+**DSA ZONE** reimagines algorithmic education by trading sterile, dry diagrams for a **vibrant, neo-brutalist comic-book playground**. Every data structure comes to life with step-by-step animation controls, live code tracers, dynamic pointer highlights, and interactive problem testing.
 
 Whether you're prepping for technical coding interviews (FAANG / Big Tech) or building CS intuition from scratch, DSA LAB provides a visual mental model of how memory, pointers, nodes, and partitions behave in real time.
 
