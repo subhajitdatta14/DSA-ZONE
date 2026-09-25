@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![DSA ZONE Banner](https://img.shields.io/badge/DSA%20LAB-Interactive%20Visualizer-FFE135?style=for-the-badge&logo=codeforces&logoColor=black)
 ![React 19](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-7.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4.3-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
