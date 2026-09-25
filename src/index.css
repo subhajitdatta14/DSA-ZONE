@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #111827;
+    background-color: #fafafa;
+    min-width: 320px;
+  }
+  
+  code, kbd, samp, pre, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+
+  h1, h2, h3, .font-comic {
+    font-family: 'Fredoka', 'Space Grotesk', system-ui, sans-serif;
+  }
+
+  button, a, input, select, textarea {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Comic / Neo-Brutalist utility classes */
+.comic-border {
+  border: 2px solid #111827;
+}
+
+.comic-border-thick {
+  border: 3px solid #111827;
+}
+
+.comic-shadow-sm {
+  box-shadow: 2px 2px 0px #111827;
+}
+
+.comic-shadow {
+  box-shadow: 3px 3px 0px #111827;
+}
+
+.comic-shadow-md {
+  box-shadow: 4px 4px 0px #111827;
+}
+
+.comic-shadow-lg {
+  box-shadow: 6px 6px 0px #111827;
+}
+
+.comic-btn {
+  border: 2px solid #111827;
+  box-shadow: 3px 3px 0px #111827;
+  transition: all 0.12s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 700;
+}
+
+.comic-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0px #111827;
+}
+
+.comic-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #111827;
+}
+
+/* Comic dots background pattern */
+.comic-dots {
+  background-image: none;
+}
+
+.comic-dots-yellow {
+  background-image: radial-gradient(#fde68a 2px, transparent 2px);
+  background-size: 16px 16px;
+}
+
+/* Smooth custom touch scrollbars */
+.touch-scroll {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}
+
+/* Thin custom scrollbar for designated containers */
+.thin-scrollbar,
+aside.thin-scrollbar,
+div.thin-scrollbar {
+  scrollbar-width: thin !important;
+  scrollbar-color: #cbd5e1 transparent !important;
+  -ms-overflow-style: auto !important;
+}
+
+.thin-scrollbar::-webkit-scrollbar,
+aside.thin-scrollbar::-webkit-scrollbar,
+div.thin-scrollbar::-webkit-scrollbar {
+  display: block !important;
+  width: 2.5px !important;
+  height: 2.5px !important;
+  background-color: transparent !important;
+}
+
+.thin-scrollbar::-webkit-scrollbar-track,
+aside.thin-scrollbar::-webkit-scrollbar-track,
+div.thin-scrollbar::-webkit-scrollbar-track {
+  background: transparent !important;
+  border-radius: 9999px !important;
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb,
+aside.thin-scrollbar::-webkit-scrollbar-thumb,
+div.thin-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1 !important;
+  border-radius: 9999px !important;
+  transition: background-color 0.2s ease;
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb:hover,
+aside.thin-scrollbar::-webkit-scrollbar-thumb:hover,
+div.thin-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8 !important;
+}
+
+/* Hide scrollbars cleanly while preserving scrolling functionality on untargeted elements */
+html,
+body,
+*:not(.thin-scrollbar):not(.thin-scrollbar *) {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+*:not(.thin-scrollbar):not(.thin-scrollbar *)::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}
+
+.no-scrollbar {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}

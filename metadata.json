@@ -1,0 +1,6 @@
+{
+  "name": "DSA LAB",
+  "description": "Interactive Data Structures and Algorithms visual learning platform. See operations happen through visual animations, explore deep conceptual guides, and practice interactive problems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
